@@ -724,6 +724,7 @@ CSEARCH.TIMESFOUND = [1]
 CSEARCH.NSAVED = 1
 CSEARCH.COMPLETE = 0
 
+@profile
 def main(filein, filetype, maxstep = None, levl = None, progress_callback = None, num_individual_files = 0):
 
     if maxstep:

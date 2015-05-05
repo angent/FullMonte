@@ -2,6 +2,11 @@
 # To run tests in a docker container:
 # >$ docker-compose build && docker-compose run fullmontetests
 
+# To profile, decorate functions with @profile
+# kernprof -l FMMC.py tests/fixtures/astex_1g9v.mol
+# python -m line_profiler FMMC.py.lprof > results.txt
+# See https://github.com/rkern/line_profiler
+
 import sys
 import unittest
 
